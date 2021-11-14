@@ -49,11 +49,11 @@ public class Reservation implements Serializable {
                 this.status = status;
         }
 
-        public Computer getPartyroom() {
+        public Computer getComputer() {
                 return computer;
         }
 
-        public void setPartyroom(Computer computer) {
+        public void setComputer(Computer computer) {
                 this.computer = computer;
         }
 
