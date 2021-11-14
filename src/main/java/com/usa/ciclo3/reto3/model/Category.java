@@ -44,12 +44,12 @@ public class Category implements Serializable {
         this.description = description;
     }
 
-    public List<Computer> getPartyrooms() {
+    public List<Computer> getComputers() {
         return computers;
     }
 
-    public void setPartyrooms(List<Computer> computer) {
-        this.computers = computer;
+    public void setComputers(List<Computer> computers) {
+        this.computers = computers;
     }
 
     @OneToMany(cascade = {CascadeType.PERSIST}, mappedBy = "category")
